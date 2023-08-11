@@ -13,6 +13,65 @@ line-height: 1.5;
 	h1, h2, h3, h4, h5, h6 {
 font-family: 'Montserrat', serif;
 }
+
+/* Navigation */
+
+nav {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f5f5f5;
+	z-index: 999;
+	position: fixed;
+	width: 100%;
+}
+
+nav,
+nav a,
+nav p a {
+	color: #222222;
+}
+
+#nav-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 0;
+}
+
+nav a {
+	text-decoration: none;
+}
+nav p {
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav p span {
+	font-weight: normal;
+}
+	
+/* Botões */
+	.btn {
+	display: inline-block;
+	font-size: 0.875rem;
+	font-weight: bold;
+	padding: 18px 16px;
+	margin-right: 8px;
+	margin-bottom: 18px;
+	border: 1px solid white;
+	border-radius: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.btn-primary {
+	background-color: white;
+	color: black;
+}
+.btn-secondary {
+	color: white;
+}
+	/* Grid */
     .row {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
