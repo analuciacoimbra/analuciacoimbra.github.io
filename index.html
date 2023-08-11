@@ -91,6 +91,11 @@ nav ul li a {
   display: inline;
 }
 
+	/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
 	/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 800px) {
   .topnav a:not(:first-child) {display: none;}
