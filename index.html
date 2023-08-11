@@ -33,6 +33,7 @@ nav p a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	z-index: 999;
 	padding: 18px 0;
 }
 
@@ -46,6 +47,33 @@ nav p {
 }
 nav p span {
 	font-weight: normal;
+}
+
+	nav #menu {
+	background-color: transparent;
+	color: black;
+	padding: 8px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 2px;
+	cursor: pointer;
+}
+nav #menu-list {
+	display: none;
+}
+nav ul {
+	list-style: none;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+nav ul li {
+	font-weight: bold;
+	border-top: 1px solid rgba(0,0,0,0.2);
+}
+nav ul li a {
+	display: block;
+	padding: 24px 0;
 }
 	
 /* Botões */
