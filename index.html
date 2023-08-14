@@ -49,11 +49,6 @@ nav p a {
   font-size: 17px;
 }
 
-.container .space {
-  height: 38px;
-  display: none;
-}
-
 nav .Nome {
 	margin: 0;
 	font-weight: bold;
@@ -68,7 +63,7 @@ nav p {
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .container a:not(:first-child) {display: none;}
   .container a.icon {
     float: right;
@@ -76,7 +71,7 @@ nav p {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .container.responsive {position: relative;}
   .container.responsive .icon {
     position: absolute;
@@ -86,7 +81,7 @@ nav p {
   .container.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
   }
 .container.responsive .space {
   display: block;
@@ -128,7 +123,7 @@ nav p {
       background-color: #cccccc;
     }
 
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 768px) {
   .row {
     grid-template-columns: 1fr;
   }
