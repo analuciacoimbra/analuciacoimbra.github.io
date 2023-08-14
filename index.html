@@ -56,7 +56,6 @@ nav ul {
 }
 
 nav ul li a {
-	float: right;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -159,26 +158,23 @@ nav ul li a {
   
 <!-- Navigation -->
  	<nav>
-
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<div class="container">
 			<div id="nav-bar">
 				<p>
 					<a href="https://analuciacoimbra.github.io/portfolio/">Ana Lúcia Coimbra · <span>UX Researcher</span></a>
 					</p>
-			</div>
-			<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<div id="menu">
-				<ul>
-					<li style="float:right"><a class="active" href="#home">Home</a></li>
-					<li style="float:right"><a href="#about">About</a></li>
-					<li style="float:right"><a href="#portfolio">Portfolio</a></li>
-					<li style="float:right"><a href="#resume">Resume</a></li>
-					<li style="float:right"><a href="#contact">Contact</a></li>
-					
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-					  <i class="fa fa-bars"></i></a>
-					</ul>
+					<ul>
+						<li style="float:right"><a href="#contact">Contact</a></li>
+						<li style="float:right"><a href="#about">About</a></li>
+						<li style="float:right"><a href="#resume">Resume</a></li>
+						<li style="float:right"><a href="#portfolio">Portfolio</a></li>
+						<li style="float:right"><a class="active" href="#home">Home</a></li>
+						
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						  <i class="fa fa-bars"></i></a>
+						</ul>
 			</div>
 		</div>
 	</nav>
