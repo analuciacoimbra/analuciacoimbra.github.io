@@ -6,8 +6,10 @@
 <link rel="stylesheet" href="">
 <style>
 	body {
-font-family: 'Rubik', sans-serif;
+	color: white;
+	font-family: 'Rubik', sans-serif;
 line-height: 1.5;
+background-color: #111111;
 }
 
 	h1, h2, h3, h4, h5, h6 {
@@ -120,13 +122,21 @@ nav p {
     .col {
       padding: 16px;
       margin: 5px;
-      background-color: #cccccc;
+      background-color: #111111;
     }
 
 	@media screen and (max-width: 900px) {
   .row {
     grid-template-columns: 1fr;
   }
+}
+
+#copyright {
+	text-align: right;
+}
+
+#title {
+	position: absolute;
 }
 </style>
 
@@ -158,7 +168,7 @@ nav p {
 	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="container" id="nav-bar">
-	<a style="float:left" href="https://analuciacoimbra.github.io/portfolio/"><span class="Nome">Ana Lúcia Coimbra</span> · UX RESEARCHER</a>
+	<a id="title" style="float:left" href="https://analuciacoimbra.github.io/portfolio/"><span class="Nome">Ana Lúcia Coimbra</span> · UX RESEARCHER</a>
 	<span class="nav-buttons">
 		<span class="space"></span>
 	<a class="active" href="#home">Home</a>
