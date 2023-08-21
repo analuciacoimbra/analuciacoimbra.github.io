@@ -27,6 +27,17 @@
       max-width: 1200px;
     }
 
+    .content h1 {
+      font-size: px;
+    }
+
+    h1.section-break,
+    h2.section-break {
+      border-bottom: 1px solid #f5f5f5;
+      padding-bottom: 15px;
+      font-size: 35px;
+    }
+
     /* Navigation */
 
     nav {
@@ -78,9 +89,9 @@
       display: none;
     }
 
-	a:hover {
-	opacity: 0.5;
-}
+    a:hover {
+      opacity: 0.5;
+    }
 
     @media screen and (max-width: 900px) {
       .container a:not(:first-child) {
@@ -173,13 +184,13 @@
       }
     }
 
-.sample-image {
-	position: relative;
-	border: 1px solid #f5f5f5;
-	border-radius: 4px;
-	overflow: hidden;
-	align-self: center;
-} 
+    .sample-image {
+      position: relative;
+      border: 1px solid #f5f5f5;
+      border-radius: 4px;
+      overflow: hidden;
+      align-self: center;
+    }
 
     #copyright {
       text-align: right;
@@ -264,11 +275,11 @@
     <!-- Body -->
     <div class="content">
       <header>
-        <h1>Title</h1>
+        <!--<h1>Title</h1>//-->
       </header>
       <nav></nav>
       <section id="presentation">
-        <h1>About Me</h1>
+        <h1 class="section-break">About Me</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue
           finibus arcu a laoreet. Proin varius auctor nisl, sit amet fermentum
@@ -281,7 +292,7 @@
         <a href="#contact" class="btn btn-secondary contact-skip">Contact Me</a>
       </section>
       <section id="portfolio-sample">
-        <h1>Portfolio</h1>
+        <h1 class="section-break">Portfolio</h1>
         <div class="sample-row">
           <div class="sample-image">
             <img src="images/InspiringCare.png" />
@@ -316,45 +327,45 @@
         </div>
       </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="footer">
-        <h2 id="contact">Contacts</h2>
-        <div class="row">
-          <div class="col">
-            <h3>Lorem ipsum</h3>
-            <p><a href="empty">empty</a></p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              non massa tempus, rhoncus ligula nec, sodales purus.
-            </p>
+      <!-- Footer -->
+      <footer>
+        <div class="footer">
+          <h2 id="contact" class="section-break">Contacts</h2>
+          <div class="row">
+            <div class="col">
+              <h3>Lorem ipsum</h3>
+              <p><a href="empty">empty</a></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                non massa tempus, rhoncus ligula nec, sodales purus.
+              </p>
+            </div>
+            <div class="col">
+              <h3>Availability</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                non massa tempus, rhoncus ligula nec, sodales purus.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                non massa tempus, rhoncus ligula nec, sodales purus.
+              </p>
+            </div>
+            <div class="col">
+              <h3>Resume</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                non massa tempus, rhoncus ligula nec, sodales purus.
+              </p>
+              <a href="/resume/" class="btn btn-primary">View</a>
+              <a href="empty" target="_blank" class="btn btn-secondary"
+                >Download (PDF)</a
+              >
+            </div>
           </div>
-          <div class="col">
-            <h3>Availability</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              non massa tempus, rhoncus ligula nec, sodales purus.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              non massa tempus, rhoncus ligula nec, sodales purus.
-            </p>
-          </div>
-          <div class="col">
-            <h3>Resume</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              non massa tempus, rhoncus ligula nec, sodales purus.
-            </p>
-            <a href="/resume/" class="btn btn-primary">View</a>
-            <a href="empty" target="_blank" class="btn btn-secondary"
-              >Download (PDF)</a
-            >
-          </div>
+          <p id="copyright">© 2023 Ana Lúcia Coimbra</p>
         </div>
-        <p id="copyright">© 2023 Ana Lúcia Coimbra</p>
-      </div>
-    </footer>
-</div>
+      </footer>
+    </div>
   </body>
 </html>
