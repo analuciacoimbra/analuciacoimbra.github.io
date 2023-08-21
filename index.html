@@ -10,7 +10,6 @@
       font-family: "Rubik", sans-serif;
       line-height: 1.5;
       background-color: #111111;
-      margin: 0;
     }
 
     h1,
@@ -20,6 +19,11 @@
     h5,
     h6 {
       font-family: "Montserrat", serif;
+    }
+
+    .content {
+      margin: 0 auto;
+      max-width: 1200px;
     }
 
     /* Navigation */
@@ -142,11 +146,11 @@
       }
     }
 
-/* Grid samples*/
+    /* Grid samples*/
 
-.sample-row {
+    .sample-row {
       display: grid;
-	  grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       text-align: center;
     }
     .sample-description {
@@ -154,11 +158,11 @@
       margin: 5px;
     }
 
-	.sample-image img{
-		width: 100%;
-	}
+    .sample-image img {
+      width: 100%;
+    }
 
-	@media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       .sample-row {
         grid-template-columns: 1fr;
       }
