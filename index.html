@@ -9,7 +9,7 @@
       color: white;
       font-family: "Rubik", sans-serif;
       line-height: 1.5;
-      background-color: #111111;
+      background-color: #18191a;
       margin: 0;
     }
 
@@ -25,10 +25,6 @@
     .content {
       margin: 0 auto;
       max-width: 1200px;
-    }
-
-    .content h1 {
-      font-size: px;
     }
 
     h1.section-break,
@@ -153,7 +149,13 @@
     .col {
       padding: 16px;
       margin: 5px;
-      background-color: #111111;
+      background-color: #18191a;
+      border-right: 1px solid #f5f5f5;
+    }
+
+    /* Remove border on the last column */
+    .col:nth-child(3n) {
+      border-right: none;
     }
 
     @media screen and (max-width: 768px) {
@@ -249,6 +251,11 @@
         white-space: nowrap;
       }
     }
+
+    .col img {
+      max-width: 40%;
+      height: auto;
+    }
   </style>
 
   <script>
@@ -315,7 +322,7 @@
           </div>
 
           <div class="aboutme-description">
-            <h1 class="section-break">About Me</h1>
+            <h1 class="section-break">Hello! I'm Ana Lúcia and welcome to my portfolio!</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               congue finibus arcu a laoreet. Proin varius auctor nisl, sit amet
@@ -374,34 +381,34 @@
           <h2 id="contact" class="section-break">Contacts</h2>
           <div class="row">
             <div class="col">
-              <h3>Lorem ipsum</h3>
-              <p><a href="empty">empty</a></p>
+              <h3>How to reach me</h3>
+              
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                non massa tempus, rhoncus ligula nec, sodales purus.
+                You can find me through my e-mail or through my LinkedIn profile:
               </p>
+              <p><a href="empty">empty</a></p>
+              <p><a href="https://www.linkedin.com/in/ana-lucia-coimbra-to/">
+                <img src="images/LinkedIn.png" alt="Description of the image">
+            </a></p>
+
             </div>
             <div class="col">
               <h3>Availability</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                non massa tempus, rhoncus ligula nec, sodales purus.
+                At the moment, I am looking for a new opportunity as a UX Researcher.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                non massa tempus, rhoncus ligula nec, sodales purus.
+                If you are curious or want to learn more about me, chat me up!
               </p>
             </div>
             <div class="col">
               <h3>Resume</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                non massa tempus, rhoncus ligula nec, sodales purus.
+                I'm currently updating my resume to be available on my portfolio for view/download. For now, please consult my LinkedIn!
               </p>
-              <a href="/resume/" class="btn btn-primary">View</a>
+              <!--<a href="/resume/" class="btn btn-primary">View</a>
               <a href="empty" target="_blank" class="btn btn-secondary"
-                >Download (PDF)</a
-              >
+                >Download (PDF)</a -->
             </div>
           </div>
           <p id="copyright">© 2023 Ana Lúcia Coimbra</p>
