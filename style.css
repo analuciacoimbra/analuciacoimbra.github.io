@@ -86,6 +86,7 @@ a:hover {
   opacity: 0.5;
 }
 
+
 @media screen and (max-width: 900px) {
   .container a:not(:first-child) {
     display: none;
@@ -137,6 +138,7 @@ a:hover {
 .btn-secondary {
   color: white;
 }
+
 /* Grid (footer) */
 .row {
   display: grid;
@@ -148,6 +150,10 @@ a:hover {
   margin: 5px;
   background-color: #18191a;
   border-right: 1px solid #f5f5f5;
+}
+
+.col a:link {
+    color: lightgray;
 }
 
 /* Remove border on the last column */
