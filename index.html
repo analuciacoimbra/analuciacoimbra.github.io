@@ -255,6 +255,12 @@
       max-width: 40%;
       height: auto;
     }
+
+    .e-mail:before {
+      content: attr(data-website) "\0040"attr(data-user);
+      unicode-bidi: bidi-override;
+      direction: rtl;
+    }
   </style>
 
   <script>
@@ -317,7 +323,7 @@
       <section id="presentation">
         <div class="aboutme-row">
           <div class="aboutme-photo">
-            <img src="images/Photo-home.png" />
+            <img src="images/Photo-home.png" alt="My photo" />
           </div>
 
           <div class="aboutme-description">
@@ -327,13 +333,14 @@
             <p>
               I'm a UX researcher with a background/experience in healthcare and
               health tech. I'm passionate about analysing what's behind every
-              inch of human behaviour so that I can help in the best way
-              and provide the best possible experience. People are driven by
+              inch of human behaviour so that I can help in the best way and
+              provide the best possible experience. People are driven by
               motivations and needs and it's my job to discover them so that I
               can inform stakeholders and thus contribute to better user-centric
               products and services. What I bring to the table is my
-              resourcefulness, my versatility and adaptability, and my thirst for knowledge,
-              along with the desire to always do better and be better.
+              resourcefulness, my versatility and adaptability, and my thirst
+              for knowledge, along with the desire to always do better and be
+              better.
             </p>
             <p>Currently looking for new opportunities!</p>
             <a href="/about/" class="btn btn-primary">More About Me</a>
@@ -347,7 +354,7 @@
         <h1 class="section-break">Portfolio</h1>
         <div class="sample-row">
           <div class="sample-image">
-            <img src="images/InspiringCare.png" />
+            <img src="images/InspiringCare.png" alt="Inspiring Care Logo" />
           </div>
           <div class="sample-description">
             <h2>How do people prepare their grocery shopping?</h2>
@@ -359,7 +366,7 @@
         </div>
         <div class="sample-row">
           <div class="sample-image">
-            <img src="images/InspiringCare.png" />
+            <img src="images/InspiringCare.png" alt="Inspiring Care Logo" />
           </div>
           <div class="sample-description">
             <h2>How do therapists manage their daily practice?</h2>
@@ -389,23 +396,20 @@
                 You can find me through my e-mail or through my LinkedIn
                 profile:
               </p>
-              <p><style type="text/css">
-                .e-mail:before {
-                    content: attr(data-website) "\0040" attr(data-user);
-                    unicode-bidi: bidi-override;
-                    direction: rtl;
-                }
-            </style>
-            <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%61%6E%61%63%6F%69%6D%62%72%61%2E%75%78%72%65%73%65%61%72%63%68%40%67%6D%61%69%6C%2E%63%6F%6D">
-                <span class="e-mail" data-user="hcraeserxu.arbmiocana" data-website="moc.liamg"></span>
-                
-            </a></p>
+              <p>
+                <a
+                  href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%61%6E%61%63%6F%69%6D%62%72%61%2E%75%78%72%65%73%65%61%72%63%68%40%67%6D%61%69%6C%2E%63%6F%6D"
+                >
+                  <span
+                    class="e-mail"
+                    data-user="hcraeserxu.arbmiocana"
+                    data-website="moc.liamg"
+                  ></span>
+                </a>
+              </p>
               <p>
                 <a href="https://www.linkedin.com/in/ana-lucia-coimbra-to/">
-                  <img
-                    src="images/LinkedIn.png"
-                    alt="LinkedIn Logo"
-                  />
+                  <img src="images/LinkedIn.png" alt="LinkedIn Logo" />
                 </a>
               </p>
             </div>
