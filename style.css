@@ -165,6 +165,10 @@ a:hover {
   .row {
     grid-template-columns: 1fr;
   }
+  .col {
+    border-right: none;
+    border-bottom: 1px solid #f5f5f5;
+  }
 }
 
 /* Grid samples*/
