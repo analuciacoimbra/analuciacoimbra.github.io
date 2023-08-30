@@ -169,6 +169,9 @@ a:hover {
     border-right: none;
     border-bottom: 1px solid #f5f5f5;
   }
+  .col:last-child {
+    border-right: none;
+  }
 }
 
 /* Grid samples*/
