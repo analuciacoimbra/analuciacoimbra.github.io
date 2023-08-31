@@ -172,7 +172,6 @@ a:hover {
   .col:nth-child(3n) {
     border-bottom: none;
   }
-  
 }
 
 /* Grid samples*/
@@ -187,8 +186,9 @@ a:hover {
 }
 
 .sample-description {
-  padding: 16px;
   margin: 5px;
+  padding-left: 20px;
+  text-align: start;
 }
 
 .sample-image img {
