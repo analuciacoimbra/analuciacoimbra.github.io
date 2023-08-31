@@ -256,6 +256,7 @@ a:hover {
   position: absolute;
   margin-right: 35px;
   white-space: nowrap;
+  float: left;
 }
 
 .content {
