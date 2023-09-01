@@ -398,3 +398,28 @@ input {
   opacity: 0;
   z-index: -1;
 }
+
+/* Grid (methodology) */
+.methods-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+.methods-col {
+  background-color: #18191a;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.methods-row  h3 {
+  text-align: center;
+}
+
+#documentation-img {
+  align-self: center;
+}
