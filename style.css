@@ -86,7 +86,6 @@ a:hover {
   opacity: 0.5;
 }
 
-
 @media screen and (max-width: 900px) {
   .container a:not(:first-child) {
     display: none;
@@ -153,7 +152,11 @@ a:hover {
 }
 
 .col a:link {
-    color: lightgray;
+  color: lightgray;
+}
+
+#copyright a:any-link {
+  color: lightgray;
 }
 
 /* Remove border on the last column */
