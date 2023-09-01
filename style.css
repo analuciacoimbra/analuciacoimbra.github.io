@@ -346,12 +346,12 @@ h1.section-start {
 }
 .tab-label {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   padding: 0.5em;
   background: #18191a;
   cursor: pointer;
-  display: hidden;
   font-weight: bold;
+  
  /* Icon */
 }
 .tab-label:hover {
