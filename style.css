@@ -374,6 +374,7 @@ h1.section-start {
   color: #f5f5f5;
   background: #18191a;
   transition: all 0.2s;
+  overflow: hidden;
 }
 .tab-close {
   display: flex;
