@@ -268,8 +268,10 @@ a:hover {
 }
 
 .content {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 420px) {
@@ -329,7 +331,6 @@ h1.section-start {
   margin-top: 0px;
 }
 
-
 .accordion-row {
   display: flex;
 }
@@ -355,8 +356,8 @@ h1.section-start {
   background: #18191a;
   cursor: pointer;
   font-weight: bold;
-  
- /* Icon */
+
+  /* Icon */
 }
 .tab-label:hover {
   background: #18191a;
@@ -421,7 +422,7 @@ input {
   }
 }
 
-.methods-row  h3 {
+.methods-row h3 {
   text-align: center;
 }
 
