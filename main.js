@@ -7,3 +7,7 @@
           x.className = "container";
         }
       }
+
+      function hello() {
+        console.log("hello");
+    }
