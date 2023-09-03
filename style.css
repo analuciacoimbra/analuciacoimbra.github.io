@@ -448,3 +448,19 @@ input {
   display: block;
   margin: 0 auto;
 }
+
+/* Grid (insights) */
+.insight-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.insight-col {
+  background-color: #18191a;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .insight-row {
+    grid-template-columns: 1fr;
+  }
+}
