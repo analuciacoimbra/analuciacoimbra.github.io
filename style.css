@@ -395,7 +395,7 @@ input:checked + .tab-label::after {
   transform: rotate(90deg);
 }
 input:checked ~ .tab-content {
-  max-height: 100vh;
+  max-height: 150vh;
   padding: 1em;
 }
 
@@ -426,6 +426,21 @@ input {
   text-align: center;
 }
 
-#documentation-img {
-  align-self: center;
+
+/* Grid (documentation) */
+.doc-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  place-items: center;
+}
+.doc-col {
+  background-color: #18191a;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .doc-row {
+    grid-template-columns: 1fr;
+  }
 }
