@@ -444,3 +444,8 @@ input {
     grid-template-columns: 1fr;
   }
 }
+
+.thera-img {
+  display: block;
+  margin: 0 auto;
+}
