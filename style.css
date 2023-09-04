@@ -277,12 +277,11 @@ a:hover {
 @media screen and (max-width: 768px) {
   .content {
     padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
-
 
 @media screen and (max-width: 420px) {
   #title {
@@ -457,6 +456,8 @@ input {
 .thera-img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Grid (insights) */
@@ -473,4 +474,37 @@ input {
   .insight-row {
     grid-template-columns: 1fr;
   }
+}
+
+/* Grid (text+images) */
+.textimg-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+.textimg-col {
+  background-color: #18191a;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .textimg-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.school-img {
+  position: relative;
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+  overflow: hidden;
+  align-self: start;
+  max-width: 95%;
+  height: auto;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-size: 13px;
+  font-style: italic;
 }
