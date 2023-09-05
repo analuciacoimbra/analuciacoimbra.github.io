@@ -247,7 +247,7 @@ a:hover {
 }
 
 .aboutme-photo {
-  max-height: 60vh; /* Set a maximum height using viewport height units */
+  max-height: 60%; /* Set a maximum height using viewport height units */
   margin: 0 auto;
   overflow: hidden; /* Hide any overflow beyond the set dimensions */
   padding-top: 25px;
@@ -544,7 +544,7 @@ input {
 }
 
 .moreaboutme-photo img {
-  max-height: 60vh; /* Set a maximum height using viewport height units */
+  max-height: 60%; /* Set a maximum height using viewport height units */
   margin: 0 auto;
   overflow: hidden; /* Hide any overflow beyond the set dimensions */
   padding-top: 25px;
