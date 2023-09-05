@@ -75,7 +75,6 @@ nav p a {
 nav .Name {
   margin: 0;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 nav p {
@@ -121,8 +120,8 @@ a:hover {
 
 /* Botões */
 .btn {
+  font-family: "Montserrat", serif;
   display: inline-block;
-  font-size: 0.875rem;
   font-weight: bold;
   padding: 18px 16px;
   margin-right: 8px;
@@ -130,8 +129,7 @@ a:hover {
   border: 1px solid white;
   border-radius: 4px;
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 0.900rem;
 }
 
 .btn-primary {
