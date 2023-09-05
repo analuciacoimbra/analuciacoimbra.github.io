@@ -233,7 +233,7 @@ a:hover {
 
 .aboutme-photo img {
   max-width: 100%;
-  max-height: 550px;
+  height: 550px;
   display: block;
   margin: 0 auto;
 }
@@ -537,7 +537,7 @@ input {
 
 .moreaboutme-photo img {
   max-width: 100%;
-  max-height: 550px;
+  height: 600px;
   display: block;
   margin: 0 auto;
 }
