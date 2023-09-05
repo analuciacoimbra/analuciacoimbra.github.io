@@ -550,3 +550,12 @@ input {
   overflow: hidden; /* Hide any overflow beyond the set dimensions */
   padding-top: 25px;
 }
+
+@media screen and (max-width: 768px) {
+  #moreaboutme {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
