@@ -140,6 +140,10 @@ a:hover {
   color: white;
 }
 
+.btn-secondary a:link {
+  color: #18191a;
+}
+
 /* Grid (footer) */
 .row {
   display: grid;
@@ -153,8 +157,12 @@ a:hover {
   border-right: 1px solid #f5f5f5;
 }
 
-.col a:link {
+.col:nth-child(1n) a:link {
   color: lightgray;
+}
+
+.col:nth-child(3n) a:link {
+  color: #18191a;
 }
 
 #copyright a:any-link {
