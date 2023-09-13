@@ -140,7 +140,7 @@ a:hover {
   color: white;
 }
 
-.btn-secondary a:link {
+.btn-primary a:link {
   color: #18191a;
 }
 
@@ -157,14 +157,13 @@ a:hover {
   border-right: 1px solid #f5f5f5;
 }
 
-.col:nth-child(1n) a:link {
+.col .btn btn-primary a:link {
+  color:#18191a;
+}
+
+#email a:link {
   color: lightgray;
 }
-
-.col:nth-child(3n) a:link {
-  color: #18191a;
-}
-
 #copyright a:any-link {
   color: lightgray;
 }
