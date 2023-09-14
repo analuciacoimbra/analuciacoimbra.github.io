@@ -579,7 +579,7 @@ input {
   grid-template-columns: var(--line-w) 1fr;
   grid-auto-columns: max-content;
   column-gap: var(--col-gap);
-  list-style: none;
+
   width: min(60rem, 90%);
   margin-inline: auto;
 }
@@ -741,7 +741,7 @@ ul li .descr {
 #jobdetail {
   margin: 0;
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   font-size: 14px;
 }
 
@@ -779,4 +779,8 @@ ul li .descr {
   margin: 0;
   padding: 0;
   padding-bottom: 10px;
+}
+
+#joblist {
+  padding-left: 0;
 }
