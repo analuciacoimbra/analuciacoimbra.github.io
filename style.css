@@ -734,4 +734,13 @@ ul li .descr {
 
 .jobdescription {
   font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#jobdetail {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  font-size: 14px;
 }
