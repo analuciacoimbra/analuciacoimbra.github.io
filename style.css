@@ -240,7 +240,7 @@ a:hover {
 
 .aboutme-photo img {
   max-width: 100%;
-  height: 550px;
+  max-height: 550px;
   display: block;
   margin: 0 auto;
 }
