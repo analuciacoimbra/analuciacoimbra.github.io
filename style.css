@@ -738,10 +738,13 @@ ul li .descr {
   padding: 0;
 }
 
-#jobdetail {
+.joblist {
+  padding-left: 0;
+}
+
+.joblist li {
   margin: 0;
   padding: 0;
-  padding-bottom: 15px;
   font-size: 14px;
 }
 
@@ -781,6 +784,3 @@ ul li .descr {
   padding-bottom: 10px;
 }
 
-#joblist {
-  padding-left: 0;
-}
