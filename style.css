@@ -732,6 +732,12 @@ ul li .descr {
   }
 }
 
+ @media screen and (max-width: 768px) {
+  .timeline li .date, .title, .descr {
+max-width:100%;
+  }
+}
+
 .jobdescription {
   font-size: 14px;
   margin: 0;
