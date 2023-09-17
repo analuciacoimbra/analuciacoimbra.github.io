@@ -660,8 +660,7 @@ input {
 }
 
 /* title descr */
-.timeline li .title,
-ul li .descr {
+.timeline li .title, .timeline li .descr {
   background: var(--bgColor);
   position: relative;
   padding-inline: 1.5rem;
@@ -732,11 +731,11 @@ ul li .descr {
   }
 }
 
- @media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .timeline li .date, .title, .descr {
 max-width:100%;
   }
-}
+} */
 
 .jobdescription {
   font-size: 14px;
