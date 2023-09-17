@@ -663,7 +663,7 @@ input {
 .timeline li .title, .timeline li .descr {
   background: var(--bgColor);
   position: relative;
-  padding-inline: 1.5rem;
+
 }
 .timeline li .title {
   overflow: hidden;
@@ -731,11 +731,13 @@ input {
   }
 }
 
-/* @media screen and (max-width: 768px) {
-  .timeline li .date, .title, .descr {
-max-width:100%;
+@media screen and (max-width: 768px) {
+  .timeline .date, .title, .descr {
+max-width: 100%;
   }
-} */
+
+  
+} 
 
 .jobdescription {
   font-size: 14px;
