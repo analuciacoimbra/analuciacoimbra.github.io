@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function ()
 {
-	const a = document.getElementById('email');
+	const a = document.getElementById('link-conversion');
 
 	a.setAttribute('href', a.getAttribute('href')
 		.replace('-', 'ptcoimbra@')
