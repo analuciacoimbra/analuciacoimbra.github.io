@@ -6,8 +6,7 @@ document.addEventListener('DOMContentLoaded', function ()
 
 	a.setAttribute('href', a.getAttribute('href')
 		.replace('-', 'ptcoimbra@')
-		.replaceAll('-', '.')
 		.replace('/', 'gmail.com')
-		.replace('to', 'mailto:a')
+		.replace('to-', 'mailto:a')
 	);
 });
