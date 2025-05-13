@@ -523,7 +523,8 @@ input {
   overflow: hidden;
   max-width: 95%;
   height: auto;
-  vertical-align: middle;
+  align-self: center;
+  justify-self: center;
 }
 
 .subtitle {
