@@ -515,6 +515,10 @@ input {
   height: auto;
 }
 
+.list-img {
+   align-self: center;
+}
+
 .subtitle {
   margin-top: 0;
   font-size: 13px;
