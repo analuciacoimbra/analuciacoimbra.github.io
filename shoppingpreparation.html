@@ -1,0 +1,787 @@
+---
+layout: default
+---
+
+<section id="shoppingpreparation-case">
+  <h1 class="section-start">
+    Beyond the Shopping List: Understanding Grocery Preparation Habits and
+    Behaviours
+  </h1>
+
+  <h2>Context:</h2>
+  <p>
+    In 2024/25, after a period of self-study to learn new skills and
+    responsibilities (focusing mainly on UX Research and related topics), I
+    decided to volunteer my time and expertise. That way, I would be able to
+    consolidate my knowledge and gain more practical experience.
+  </p>
+  <p>
+    During that time, I found a freelance project on social media about grocery
+    shopping and price comparison that I found very interesting. As such, I
+    contacted those responsible for the aforementioned project (hereinafter
+    referred to as stakeholders) to offer my services as a volunteer UX
+    Researcher. My only requirement was to be able to use this experience in my
+    portfolio as a case study whilst keeping the most sensitive information
+    confidential, which was promptly accepted.
+  </p>
+  <h3>The problem</h3>
+  <div class="textimg-grid">
+    <div class="textimg-row">
+      <div class="textimg-col">
+        <ul>
+          <li>
+            The project originated from the stakeholders' needs. They wanted to
+            build a tool that helped them analyse if the current price for a
+            product was the cheapest they could pay or if they could find the
+            item cheaper somewhere else.
+          </li>
+          <li>
+            There are many supermarkets and promotions happening all the time,
+            which makes it harder to track the base price for the products for
+            each one of them.
+          </li>
+          <li>
+            From the stakeholders’ perspective, some of the promotions seemed to
+            be misleading: as in, the stores would raise the effective current
+            price of the item so they could offer the base price as a promotion.
+            These tactics are hard to notice unless they have data from previous
+            time frames to compare. This prompted the creation of this tool.
+          </li>
+          <li>
+            With the rise of global inflation in the post-COVID-19 era, the
+            stakeholders recognised the potential utility of this project for
+            the general public, whilst lacking any concrete information or
+            research about the needs of this potential target audience.
+          </li>
+        </ul>
+        <p>
+          After a meeting with the stakeholders, I proposed advancing with
+          generative research to understand user needs and shopping behaviours,
+          rather than immediately proceeding with evaluative research on an
+          existing solution, in order to ensure alignment between the project
+          and user needs and to inform future project decisions.
+        </p>
+      </div>
+      <div class="textimg-col">
+        <img
+          src="/images/Escola.JPG"
+          alt="An example of the office space available for therapists in a school setting"
+          class="school-img"
+        />
+        <p class="subtitle">
+          A photograph I took during this research study of the office space
+          available to therapists in a school context. Note the outdated
+          hardware and the amount of physical files.
+        </p>
+      </div>
+    </div>
+  </div>
+  <p>
+    Thus, a generative study was considered to uncover needs and gather insights
+    to be able to reach a viable, feasible and informed solution.
+  </p>
+  <h2>Preparation</h2>
+  <h3>Current process</h3>
+  <ul>
+    <li>
+      Therapists use an iterative therapeutic process such as the one
+      exemplified below.
+    </li>
+  </ul>
+  <img
+    src="/images/TherapeuticProcess.png"
+    alt="A simplified version of a therapeutic process"
+    class="thera-img"
+  />
+  <ul>
+    <li>
+      This whole process needs to be documented extensively and each phase has
+      different documentation needs.
+    </li>
+  </ul>
+  <h3>Current software</h3>
+  <ul>
+    <li>
+      The current software used by therapists is either a customised one (made
+      in-house by a developer), SClínico (the software made by the ministry of
+      health) or an inexpensive solution found by the team (e.g. using Airtable
+      with Google Docs).
+    </li>
+    <li>
+      Other solutions were found (such as wClínicas, Hogrefe, Fisiozero and
+      iCouch), but are specific to certain therapies and wouldn’t allow any sort
+      of teamwork or multidisciplinary intervention.
+    </li>
+    <li>
+      Other healthcare management solutions focus on doctors and nurses (e.g.
+      SAM and SAPE). Therapists could be allowed to consult the records if
+      needed (e.g. in a hospital setting), but couldn’t use the same software
+      for their records.
+    </li>
+  </ul>
+  <h3>Secondary Research</h3>
+  <ul>
+    <li>
+      Scientific literature was consulted to check and compare the therapeutic
+      process. It was found that occupational therapy, physical therapy, speech
+      and language therapy and psychology use compatible therapeutic processes.
+    </li>
+    <li>
+      Ideally, the assessment done by these professionals should contain
+      scientifically validated assessment questionnaires and test batteries as
+      assessment tools. However, during my desk research, I realised there is no
+      centralised archive to access the scientifically validated assessment
+      questionnaires for the Portuguese population. I found dozens of posts from
+      therapists on social media asking if a certain questionnaire was already
+      validated or not and how they could have access, which led me to question
+      if this may affect them and the impact it may have. With further research,
+      I found that test batteries are sold by companies, but are hard to find
+      and may not be affordable for some institutions. As such, I decided to
+      make note of this to check if it came up as a pain or a need during the
+      research.
+    </li>
+    <li>
+      The scientific literature around interdisciplinary and multidisciplinary
+      intervention that was consulted during desk research was not conclusive to
+      find actual team needs.
+    </li>
+  </ul>
+  <h3>Main research questions</h3>
+  <ul>
+    <li>
+      What are the existing market solutions (offers, strengths, weaknesses)?
+    </li>
+    <li>
+      How do therapists conduct a therapeutic process from beginning to end?
+    </li>
+    <li>How are therapists documenting their therapeutic process?</li>
+    <li>What are the needs, pain points and motivations of therapists?</li>
+    <li>
+      How are therapists working as a team and what do they need to be able to
+      do it efficiently and effectively?
+    </li>
+    <li>What is a typical working day or week like for a therapist?</li>
+  </ul>
+  <h2>Planning</h2>
+  <p>
+    To better get a grasp of the needs and pains of therapists during their
+    daily practice, the following methods were selected:
+  </p>
+
+  <div class="tabs">
+    <div class="tab">
+      <input type="checkbox" id="chck1" />
+      <label class="tab-label" for="chck1">User Interviews</label>
+      <div class="tab-content">
+        <ul>
+          <li>
+            I selected this method so that I was able to ask therapists about
+            their routines, their therapeutic process, their pains and needs.
+            Whenever possible, I would also observe the software they use and
+            how they use it. Due to distance constraints, I wasn’t able to
+            perform all of them in person and I had to adapt the plan to be able
+            to do them remotely.
+          </li>
+          <li>
+            Contextual inquiry would’ve been the most adequate method, but there
+            were legal/administrative issues to be considered (mainly due to
+            patient confidentiality). I wasn’t able to get authorization in a
+            timely manner.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="tab">
+      <input type="checkbox" id="chck2" />
+      <label class="tab-label" for="chck2">Focus Groups</label>
+      <div class="tab-content">
+        <ul>
+          <li>
+            Since multidisciplinary work and teamwork are good practices in the
+            healthcare industry, I also considered running a few focus groups
+            with already established workgroups to ask them about their
+            therapeutic process, how they work as a team, their pains and needs.
+          </li>
+          <li>
+            I was able to check their office space and what physical resources
+            they have available there, the software they use and where/how they
+            keep their records. Patient confidentiality was kept at all times.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="tab">
+      <input type="checkbox" id="chck3" />
+      <label class="tab-label" for="chck3">Competitive Analysis</label>
+      <div class="tab-content">
+        <ul>
+          <li>
+            After the interviews/focus groups, since there was no common ground
+            regarding the tools used (all interviewees used different tools
+            depending on their workplace) and there was a need to use this
+            research on a business plan, I considered it necessary to complement
+            the information with market analysis and competitive analysis.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <h3>Recruitment</h3>
+  <ul>
+    <li>
+      Participants matching one of four profiles (occupational therapist, speech
+      and language therapist, physical therapist and psychologist) were
+      recruited on social media.
+    </li>
+    <li>
+      The target audience should live in Portugal and be an active therapist (no
+      retired therapists or therapists who are working in other fields, such as
+      teaching).
+    </li>
+  </ul>
+  <h3>Budget/Incentives</h3>
+  <ul>
+    <li>Incentives weren’t available since it was an unpaid study.</li>
+  </ul>
+  <h2>Execution</h2>
+  <div class="methods-row">
+    <div class="methods-col">
+      <h3>User Interviews</h3>
+      <ul>
+        <li>Semi-structured interviews</li>
+        <li>
+          1 hour in-person or remote sessions (in total, there were 5 in-person,
+          6 remote)
+        </li>
+        <li>
+          11 therapists (4 occupational therapists, 2 psychologists, 2 physical
+          therapists, 3 speech and language therapists)
+        </li>
+        <li>
+          Notes were taken during the interviews, including answers and
+          observations
+        </li>
+      </ul>
+    </div>
+    <div class="methods-col">
+      <h3>Focus Groups</h3>
+      <ul>
+        <li>1.5 hour in-person sessions</li>
+        <li>
+          Two sessions with different groups:
+          <ul>
+            <li>
+              A team of 3 occupational therapists working in the same department
+            </li>
+            <li>
+              A multidisciplinary therapist team of 5 working in the same
+              institution (psychologist, 2 speech and language therapists,
+              occupational therapist, physical therapist)
+            </li>
+          </ul>
+        </li>
+        <li>
+          o Notes were taken during the interviews, including answers, main
+          points of discussion and observations
+        </li>
+      </ul>
+    </div>
+    <div class="methods-col">
+      <h3>Competitive Analysis</h3>
+      <ul>
+        <li>Throughout online research</li>
+        <li>
+          Compared over 10 different software (including those reported in
+          interviews/focus groups) using more than 14 criteria
+        </li>
+        <li>Notes and screenshots were taken during the research</li>
+      </ul>
+    </div>
+  </div>
+  <h2>Analysis</h2>
+  <h3>Analysis and refinement</h3>
+  <ul>
+    <li>The thematic analysis was done by hand, using pen and paper</li>
+    <li>
+      Compiled the data about tools/software in charts to be used in the
+      competitive analysis
+    </li>
+  </ul>
+  <h2>Deliverables</h2>
+  <h3>Summary</h3>
+  <ul>
+    <li>
+      Existing software lacks consideration for multidisciplinary intervention,
+      as it confines different areas in silos. Therapists feel the need to be
+      aware of their colleagues' interventions to enhance efficiency and mutual
+      support, resulting in regular team meetings that take away time from their
+      clients.
+    </li>
+    <li>
+      Therapists feel neglected and undervalued in healthcare management
+      software, being secondary to other healthcare professionals. They often
+      have to adjust their processes to fit existing tools rather than utilising
+      their ideal methods as documented by scientific literature.
+    </li>
+    <li>
+      Time inefficiency is a significant issue, as therapists cannot utilize
+      time away from the office for record-keeping. Absent clients during
+      off-site sessions lead to wasted time. Thus, mobility and cross-device
+      software are highly valued, as well as automation tools such as reminders
+      to reduce absences.
+    </li>
+    <li>
+      Due to time constraints related to the program I was participating in and
+      the deliverables I was asked to add to my business plan, I had to
+      prioritise the report and the competitive analysis. Task analysis and a
+      customer journey map would’ve been adequate deliverables for this project.
+    </li>
+  </ul>
+  <div class="tabs">
+    <div class="tab">
+      <input type="checkbox" id="chck4" />
+      <label class="tab-label" for="chck4">Documentation</label>
+      <div class="tab-content">
+        <ul>
+          <li>
+            Report
+            <ul>
+              <li>
+                The final report included the product proposed with a complete
+                business model (including executive summary, internal and
+                external analysis, financial plan, strategy and marketing-mix).
+                It also included a needs list, requirements and flowcharts.
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            Competitive analysis
+            <ul>
+              <li>
+                The competitive analysis consisted of both an external and
+                internal analysis and included a competitor chart, a PESTEL
+                analysis, Porter’s 5 forces, a SWOT analysis and a VRIO model.
+              </li>
+              <li>
+                These images are purposefully blurry to maintain
+                confidentiality.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="doc-img">
+          <div class="doc-row">
+            <div class="doc-col">
+              <img src="/images/matrix.png" alt="Competitive matrix part 1" />
+            </div>
+            <div class="doc-col">
+              <img src="/images/matrix1.png" alt="Competitive matrix part 2" />
+            </div>
+            <div class="doc-col">
+              <img src="/images/pestel.png" alt="PESTEL analysis" />
+            </div>
+            <div class="doc-col">
+              <img src="/images/porter.png" alt="Porter's 5 forces" />
+            </div>
+            <div class="doc-col">
+              <img src="/images/swot.png" alt="SWOT analysis" />
+            </div>
+            <div class="doc-col">
+              <img src="/images/vrio.png" alt="VRIO model" />
+            </div>
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            Business Model Canvas and Value Proposition Design
+            <ul>
+              <li>
+                Considering the final goal of proposing a product and business
+                model, both of these models were added to the final report.
+              </li>
+              <li>
+                These images are purposefully blurry to maintain
+                confidentiality.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="doc-img">
+          <div class="doc-row">
+            <div class="doc-col">
+              <img
+                src="/images/business%20model%20canvas.png"
+                alt="Business Model Canvas"
+              />
+            </div>
+            <div class="doc-col">
+              <img
+                src="/images/value%20proposition%20design.png"
+                alt="Value Proposition Design"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Synthesis</h3>
+  <p>
+    In order to address the pains and needs related with managing the
+    therapists’ practice and therapeutic processes and the time inefficiencies
+    reported, the following insights were found:
+  </p>
+  <div class="insight-grid">
+    <div class="insight-row">
+      <div class="insight-col">
+        <ul>
+          <li>
+            Mobility
+            <ul>
+              <li>
+                <strong>Finding:</strong> Participants reported having more than
+                one context of intervention (between two to six different
+                contexts at a time during a work week) and being away from the
+                office space. They were unable to keep up with the daily records
+                due to several constraints, including not having enough
+                computers in their department/office. Therapists who work in
+                different settings where the clients also travel to meet them
+                (e.g. in an external equestrian centre or community pool) also
+                reported that, in case the client misses their appointment, that
+                time can’t be reused.
+              </li>
+              <li>
+                <strong>Recommendation:</strong> The product should be
+                cross-device (both mobile and computer) to allow therapists to
+                use their time more efficiently and not be dependent on the
+                availability of the few computers in the departments. That way,
+                they can do their daily records without having to rely on shared
+                resources or where they currently are.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Digitalising the process
+            <ul>
+              <li>
+                <strong>Finding:</strong> Digitalisation is still underway in
+                many of the therapists’ workplaces and there are a lot of
+                external reports and other paper reports that should be
+                archived. Therapists reported that keeping clinical records
+                up-to-date is an exhausting task.
+              </li>
+              <li>
+                <strong>Recommendation:</strong> Along with providing a digital
+                clinical record, it should be possible to take photos (of the
+                clients’ progress, external reports, etc) and archive them with
+                the clients’ file, reducing the need for paper, for physical
+                archives and the time expended on administrative work.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Assisting the practice
+            <ul>
+              <li>
+                <strong>Finding:</strong> Formal assessments using battery tests
+                and questionnaires are time-consuming, especially during the
+                scoring and analysis part. They are still done by hand and in
+                paper, which forces the therapists to use a scanner to add the
+                score sheet to the clinical records.
+              </li>
+              <li>
+                <strong>Recommendation:</strong> Digitalising the therapeutic
+                assessment and facilitating this part of the therapeutic process
+                (e.g. by calculating scores automatically) would allow them to
+                use more formal assessment instead of relying on mostly
+                observation.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Centralised marketplace/community
+            <ul>
+              <li>
+                <strong>Finding:</strong> Therapists often rely on the community
+                to be able to have access to formal assessments (such as
+                questionnaires and test batteries). For example, they reach out
+                to other therapists to ask for certain questionnaires, to verify
+                if a certain formal assessment is already validated for the
+                Portuguese population or to ask where to purchase a certain test
+                battery.
+              </li>
+              <li>
+                <strong>Recommendation:</strong> Offer access to a digital
+                archive of questionnaires and test batteries validated to the
+                Portuguese population and to a thematic marketplace where they
+                can purchase what they may need for their daily practice.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Reports
+            <ul>
+              <li>
+                <strong>Finding:</strong> Therapists need to write reports for
+                various ends (e.g. if the therapist works in a school, the end
+                of the school year is always full of reports about the progress
+                that was made). It can occupy a significant part of their time
+                and having to do it after their work schedule or at home, where
+                it affects their personal lives.
+              </li>
+              <li>
+                <strong>Recommendation:</strong> In order to prevent overtime
+                and “homework”, a functionality to generate reports should be
+                designed using the scores from assessments/reassessments, the
+                clinical information available. This report generation should
+                have customisable templates that can be selected and should
+                generate an editable report so that changes can be made if
+                needed.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Automation
+            <ul>
+              <li>
+                <strong>Finding:</strong> Therapists have to schedule their
+                clients manually and mistakes can be made during the scheduling.
+                They also report that clients often miss their sessions due to
+                forgetfulness.
+              </li>
+              <li>
+                <strong>Recommendation:</strong> The product should allow the
+                automatic scheduling of the sessions (e.g. client x comes every
+                Friday at 10am for 1 hour of physical therapy and 1 hour
+                occupational therapy and it appears on their schedule right
+                away). As a way to reduce clients’ absences, it should also be
+                possible to send reminders.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p>
+    To address the pains and needs related to multidisciplinarity and teamwork,
+    the following insights were found:
+  </p>
+  <div class="insight-grid">
+    <div class="insight-row">
+      <div class="insight-col">
+        <ul>
+          <li>
+            Collaboration
+            <ul>
+              <li>
+                <strong>Finding:</strong> Participants value multidisciplinarity
+                and interdisciplinarity and are unwilling to compromise those to
+                make sure they provide the best services they can. As such, they
+                have to schedule regular team meetings (some do weekly meetings,
+                others do them every two weeks). These meetings take quite a
+                while (all the teams reported using a full morning or a full
+                afternoon for that purpose) and it’s time away from their
+                clients.
+              </li>
+              <li>
+                <strong>Recommendation:</strong> The product should promote
+                collaboration whenever possible (e.g. shared schedule and shared
+                clinical records).
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Sharing just enough
+            <ul>
+              <li>
+                <strong>Finding:</strong> Even though therapists feel the need
+                to work as a team and share their work, they reported that some
+                notes should remain completely private from the other
+                professional (e.g. things said in confidence during a session
+                that the client may not yet be comfortable sharing with the
+                team).
+              </li>
+              <li>
+                <strong>Recommendation:</strong> Allow clinical notes and
+                assessments to be kept confidential from the team to be shared
+                at a more convenient time.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <h2>Project outcomes</h2>
+  <h3>Product/design</h3>
+  <div class="textimg-grid">
+    <div class="textimg-row">
+      <div class="textimg-col">
+        <ul>
+          <li>
+            Based on my research, it was decided to make a new product with
+            cross-functionality and having in mind the requirements and needs
+            gathered during the process.
+          </li>
+          <li>
+            It should be available both on mobile devices and on the computer
+            and allow for team collaboration while keeping the therapeutic
+            process digital, client-focused and readily available.
+          </li>
+        </ul>
+      </div>
+      <div class="textimg-col">
+        <img
+          src="/images/InspiringCare-small.png"
+          alt="Inspiring Care logo"
+          class="logo-img"
+        />
+        <p class="subtitle">
+          The logo I designed for the project. The colours on the leaves have
+          the the following meaning: blue for physical therapy, green for
+          occupational therapy, orange for psychology and yellow for speech and
+          language therapy.
+        </p>
+      </div>
+    </div>
+  </div>
+  <h3>Results</h3>
+  <ul>
+    <li>
+      The research was used on the business plan and several presentations about
+      the project. The business plan was evaluated with a final score of 4.35/5
+      by StartUp Portugal (the jury during the “Empreende Já” program) and it
+      was one of the chosen projects to receive funding.
+    </li>
+  </ul>
+  <h2>Takeways</h2>
+  <p>
+    There were several limitations during this project that I have reflected
+    upon.
+  </p>
+  <div class="insight-grid">
+    <div class="insight-row">
+      <div class="insight-col">
+        <ul>
+          <li>
+            Budget/recruitment
+            <ul>
+              <li>
+                <strong>Problem:</strong> This was an unpaid study, so it was
+                harder to find participants who were willing to participate.
+              </li>
+              <li>
+                <strong>Solution:</strong> I reached out to a couple of people
+                that were willing to participate and asked them if they could
+                share with their networks. Fortunately, it opened up a few
+                opportunities (for example, one of the focus groups). In a
+                future project, incentives should be considered.
+              </li>
+              <li>
+                <strong>Problem:</strong> The recruitment was done on my social
+                media only, so, along with having no incentive, I also had to
+                rely a lot on willingness and those I had a relationship with.
+              </li>
+              <li>
+                <strong>Solution:</strong> I had to post in a few Facebook
+                groups to be able to have a broader reach.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Bias
+            <ul>
+              <li>
+                <strong>Problem:</strong> I had to face my own confirmation
+                bias, since I had worked as a therapist before and I had years
+                of observations in my head.
+              </li>
+              <li>
+                <strong>Solution:</strong> I had to accept that we all have our
+                biases. After all, we are only human. The best we can do is
+                trying to be as neutral as possible, as much as we can, and be
+                critical of our work to make sure that our opinions and views
+                stay out of our research.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Administrative/legal limitations
+            <ul>
+              <li>
+                <strong>Problem:</strong> The best method I could’ve used for
+                this research was a contextual inquiry. Unfortunately, that
+                wasn’t possible due to administrative matters. I needed
+                authorisation to be able to visit the workplaces so that patient
+                confidentiality was kept.
+              </li>
+              <li>
+                <strong>Solution:</strong> I used user interviews instead of
+                contextual inquiry whenever I was unable to get an authorisation
+                in time. In a future project, I would recommend starting this
+                task a lot sooner since it depends on external parties and it
+                may impact our timelines/methods.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="insight-col">
+        <ul>
+          <li>
+            Programme needs and time limitation
+            <ul>
+              <li>
+                <strong>Problem:</strong> I had limited time to do this
+                generative research due to the “Empreende Já” schedule and the
+                deliverables I was asked for (mainly a full business plan).
+              </li>
+              <li>
+                <strong>Solution:</strong> I had to prioritise my deliverables
+                having in mind what I was being asked to do.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
