@@ -505,7 +505,7 @@ input {
   }
 }
 
-.school-img {
+.school-img .list-img {
   position: relative;
   border: 1px solid #f5f5f5;
   border-radius: 4px;
