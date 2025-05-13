@@ -129,7 +129,7 @@ a:hover {
   border: 1px solid white;
   border-radius: 4px;
   text-decoration: none;
-  font-size: 0.900rem;
+  font-size: 0.9rem;
 }
 
 .btn-primary {
@@ -158,7 +158,7 @@ a:hover {
 }
 
 .col .btn btn-primary a:link {
-  color:#18191a;
+  color: #18191a;
 }
 
 #email a:link {
@@ -459,13 +459,14 @@ input {
 }
 
 .doc-col img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: 100%;
-  }
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
 
-.thera-img, .knowledgeq-img {
+.thera-img,
+.knowledgeq-img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -520,7 +521,7 @@ input {
   border: 1px solid #f5f5f5;
   border-radius: 4px;
   overflow: hidden;
-  align-self: center;
+  justify-content: center;
   max-width: 95%;
   height: auto;
 }
@@ -670,10 +671,10 @@ input {
 }
 
 /* title descr */
-.timeline li .title, .timeline li .descr {
+.timeline li .title,
+.timeline li .descr {
   background: var(--bgColor);
   position: relative;
-
 }
 .timeline li .title {
   overflow: hidden;
@@ -742,10 +743,12 @@ input {
 }
 
 @media screen and (max-width: 768px) {
-  .timeline .date, .title, .descr {
-max-width: 100%;
+  .timeline .date,
+  .title,
+  .descr {
+    max-width: 100%;
   }
-} 
+}
 
 .jobdescription {
   font-size: 14px;
@@ -781,16 +784,18 @@ max-width: 100%;
   }
 }
 
-#education-date, #education-detail {
+#education-date,
+#education-detail {
   margin: 0;
   padding: 0;
   font-size: 14px;
   padding-bottom: 10px;
 }
 
-#education-course, #education-school {
-    margin: 0;
-    padding: 0;
+#education-course,
+#education-school {
+  margin: 0;
+  padding: 0;
 }
 
 #education-school {
@@ -798,4 +803,3 @@ max-width: 100%;
   padding: 0;
   padding-bottom: 10px;
 }
-
