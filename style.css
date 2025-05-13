@@ -465,7 +465,7 @@ input {
     max-height: 100%;
   }
 
-.thera-img {
+.thera-img, .knowledgeq-img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
