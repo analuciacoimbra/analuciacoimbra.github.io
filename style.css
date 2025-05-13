@@ -419,7 +419,7 @@ input {
   z-index: -1;
 }
 
-/* Grid (methodology) */
+/* Grid (methodology inspiring care) */
 .methods-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -432,6 +432,28 @@ input {
 
 @media screen and (max-width: 768px) {
   .methods-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Grid (methodology shopping) */
+
+.methods-row1 h3 {
+  text-align: center;
+}
+
+.methods-row1 {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  column-gap: 30px;
+}
+.methods-col1 {
+  background-color: #18191a;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .methods-row1 {
     grid-template-columns: 1fr;
   }
 }
