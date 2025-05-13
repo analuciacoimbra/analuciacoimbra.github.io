@@ -505,7 +505,7 @@ input {
   }
 }
 
-.school-img .list-img {
+.school-img, .list-img {
   position: relative;
   border: 1px solid #f5f5f5;
   border-radius: 4px;
@@ -513,10 +513,6 @@ input {
   align-self: start;
   max-width: 95%;
   height: auto;
-}
-
-.list-img {
-   align-self: center;
 }
 
 .subtitle {
