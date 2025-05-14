@@ -89,7 +89,15 @@ nav p {
   display: none;
 }
 
+a {
+color: #f5f5f5;
+}
+
 a:hover {
+  opacity: 0.5;
+}
+
+a:visited {
   opacity: 0.5;
 }
 
@@ -205,6 +213,7 @@ a:hover {
   margin: 5px;
   padding-left: 20px;
   text-align: start;
+  align-content: center;
 }
 
 .sample-image img {
