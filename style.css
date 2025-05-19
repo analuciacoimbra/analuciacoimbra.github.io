@@ -407,6 +407,7 @@ h1.section-start {
 }
 .tab-label:hover {
   background: #18191a;
+  opacity: 0.5;
 }
 .tab-label::after {
   content: "\276F";
