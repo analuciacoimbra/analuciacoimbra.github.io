@@ -38,18 +38,20 @@ h2.section-break {
   font-size: 35px;
 }
 
-
 /* h1, .h1 {
     font-size: 200%;
 } */
-h2, .h2 {
-    font-size: 180%;
+h2,
+.h2 {
+  font-size: 180%;
 }
-h3, .h3 {
-    font-size: 140%;
+h3,
+.h3 {
+  font-size: 140%;
 }
-h4, .h4 {
-    font-size: 120%;
+h4,
+.h4 {
+  font-size: 120%;
 }
 
 /* Navigation */
@@ -104,7 +106,7 @@ nav p {
 }
 
 a {
-color: #f5f5f5;
+  color: #f5f5f5;
 }
 
 a:hover {
@@ -232,6 +234,7 @@ a:visited {
 
 .sample-image img {
   width: 100%;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 768px) {
@@ -248,7 +251,7 @@ a:visited {
   border: 1px solid #f5f5f5;
   border-radius: 4px;
   overflow: hidden;
-  align-self: start;
+  align-self: center;
 }
 
 /* Grid about me*/
